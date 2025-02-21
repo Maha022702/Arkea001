@@ -1,0 +1,40 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #4299E1;
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #3182CE;
+  padding: 10px 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #2D3748;
+  color: #FFF;
+  text-align: center;
+  padding: 10px;
+}
