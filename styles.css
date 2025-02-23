@@ -1,40 +1,71 @@
-/* General Styles */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
 }
 
-/* Header Styles */
 header {
-  background-color: #4299E1;
-  color: #FFF;
-  padding: 20px;
-  text-align: center;
+    background-color: #0d1f2d;
+    padding: 20px;
+    color: #fff;
 }
 
-/* Navigation Styles */
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
 nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  background-color: #3182CE;
-  padding: 10px 0;
+    list-style-type: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+    display: flex;
 }
 
-nav ul li {
-  margin: 0 15px;
+nav li {
+    margin-right: 15px;
 }
 
-nav ul li a {
-  color: #FFF;
-  text-decoration: none;
+nav a {
+    color: #fff;
+    text-decoration: none;
 }
 
-/* Footer Styles */
+#hero {
+    background-image: url('stock-market.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
 footer {
-  background-color: #2D3748;
-  color: #FFF;
-  text-align: center;
-  padding: 10px;
+    background-color: #0d1f2d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
